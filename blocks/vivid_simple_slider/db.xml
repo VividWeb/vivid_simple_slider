@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="btVividSimpleSlider">
+        <field name="bID" type="I">
+            <key />
+            <unsigned />
+        </field>
+        <field name="template" type="X2"></field>
+        <field name="fx" type="X2"></field>
+        <field name="arrows" type="X2"></field>
+        <field name="pagination" type="X2"></field>
+        <field name="speed" type="X2"></field>
+        <field name="duration" type="X2"></field>
+        <field name="breakpoint1width" type="X2"></field>
+        <field name="breakpoint1height" type="X2"></field>
+        <field name="breakpoint2" type="X2"></field>
+        <field name="breakpoint2width" type="X2"></field>
+        <field name="breakpoint2height" type="X2"></field>
+        <field name="breakpoint3" type="X2"></field>
+        <field name="breakpoint3width" type="X2"></field>
+        <field name="breakpoint3height" type="X2"></field>
+    </table>
+    <table name="btVividSimpleSlide">
+        <field name="id" type="I"><UNSIGNED/><key/><AUTOINCREMENT/></field>
+        <field name="bID" type="X2"></field>
+        <field name="title" type="X2"></field>
+        <field name="slidedesc" type="X2"></field>
+        <field name="btnText" type="X2"></field>
+        <field name="fID" type="X2"></field>
+        <field name="pageID" type="X2"></field>
+        <field name="sort" type="I"></field>
+    </table>
+</schema>
