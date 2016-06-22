@@ -3,7 +3,7 @@
     <div class="ccm-summary-selected-item-inner">
         <strong class="ccm-summary-selected-item-label"><%=pageName%></strong>
     </div>
-    <a class="ccm-sitemap-select-page" data-page-selector-launch="pageselectorid<%=sort%>" dialog-width="90%" dialog-height="70%" dialog-append-buttons="true" dialog-modal="false" dialog-title="<?=t('Choose Page')?>" href="<?php echo View::url('/'); ?>/tools/required/sitemap_search_selector?cID=0" dialog-on-close="Concrete.event.fire('fileselectorclose', '{$fieldName}');"><?=t('Select Page')?></a>
+    <a class="ccm-sitemap-select-page" data-page-selector-launch="pageselectorid<%=sort%>" dialog-width="90%" dialog-height="70%" dialog-append-buttons="true" dialog-modal="false" dialog-title="<?=t('Choose Page')?>" href="<?php echo View::url('/'); ?>tools/required/sitemap_search_selector?cID=0" dialog-on-close="Concrete.event.fire('fileselectorclose', '{$fieldName}');"><?=t('Select Page')?></a>
     <a href="javascript:void(0)" dialog-sender="pageselectorid<%=sort%>" data-page-selector-clear="pageselectorid<%=sort%>" class="ccm-sitemap-clear-selected-page" style="float: right; margin-top: -8px;color:#d9534f">
         <i class="fa fa-trash"></i>
         <input type="hidden" data-page-selector="cID" name="pageID[]" value="<%=pageID%>">
